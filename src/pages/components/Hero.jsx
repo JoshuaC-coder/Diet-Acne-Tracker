@@ -34,7 +34,7 @@ const Hero = () => {
 
 
                 <button className = 'bg-[#ff6b6b] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>
-                    <Link to='/login'>
+                    <Link to='/signup'>
                     Start
 
                     </Link>
