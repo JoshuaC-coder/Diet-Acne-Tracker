@@ -4,13 +4,14 @@ import Signin from './pages/components/Signin';
 import Signup from './pages/components/Signup';
 import Dashboard from './pages/components/Dashboard';
 import PrivateRoute from './pages/components/PrivateRoute';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
       <AuthContextProvider>
         <Routes>
-          <Route path="/" element={<Signin />} />
+          <Route path="/" element={<Home />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
           <Route 
